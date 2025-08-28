@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passion Chess Training Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Passion Chess Training Portal</h1>
+
+  <!-- Part 1: Age-based Chess Recommendations -->
+  <div>
+    <h2>Chess Recommendations by Age</h2>
+    <label for="ageInput">Enter your age:</label>
+    <input type="number" id="ageInput" />
+    <button id="checkAgeBtn">Get Chess Tips</button>
+    <p id="ageResult"></p>
+  </div>
+
+  <!-- Part 2: Chess Score Calculator -->
+  <div>
+    <h2>Chess Score Calculator</h2>
+    <label for="wins">Wins:</label>
+    <input type="number" id="wins" />
+     <label for="draws">Draws:</label>
+    <input type="number" id="draws" />
+    <label for="losses">Losses:</label>
+    <input type="number" id="losses" />
+    <button id="calcScoreBtn">Calculate Score</button>
+    <p id="scoreResult"></p>
+  </div>
+
+  <!-- Part 3: Loop through Chess Lessons -->
+  <div>
+    <h2>Chess Lessons</h2>
+    <button id="showLessonsBtn">Show Lessons</button>
+    <ul id="lessonsList"></ul>
+  </div>
+
+  <!-- Part 4: DOM Interactions -->
+  <div>
+    <h2> Interactive Chess Piece display  </h2>
+    <button id="toggleBoardBtn">change page Color</button>
+    <button id="addPieceBtn">Add Chess Piece</button>
+    <ul id="chessPiecesList">
+      <li>King</li>
+      <li>Queen</li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
